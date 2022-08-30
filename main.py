@@ -6,9 +6,9 @@ from email_tools import *
 
 
 def main():
-    email_sender = 'SW.by.RM13@gmail.com'
+    email_sender = #email address here
     email_password = os.environ.get('PASSWORD')
-    email_receiver= 'ryan.meehan200213@gmail.com'
+    email_receiver= #email address here
     subject = 'Your Daily Dashboard'
     body = generate_content()
     em = EmailMessage()
